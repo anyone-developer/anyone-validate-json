@@ -1,4 +1,4 @@
-import core from '@actions/core';
+import * as core from '@actions/core';
 import avj from './src/avj';
 import chalk from 'chalk';
 
