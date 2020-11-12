@@ -55,7 +55,7 @@ the output of execution.
 - create 'index.js' and copy code below:
 
 ```typescript
-import avj from 'anyone-validate-json';
+import avj from '@anyone-developer/anyone-validate-json';
 
 avj(['.config', 'json'], ['README.md'], ['c'], 'sample_folder').then(result => {
 	const succeed = result.filter(i => i?.formatted);
