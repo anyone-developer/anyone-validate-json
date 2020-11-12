@@ -1,7 +1,7 @@
 {
   "name": "@anyone-developer/anyone-validate-json",
-  "version": "0.9.2",
-  "description": "This action helps you to validate JSON syntax in a specified directory. And write back with formatted content. read file recursively with specified file extensions.",
+  "version": "0.9.3",
+  "description": "This action helps you to validate JSON syntax in a specified directory. And write back with formatted content.",
   "main": "index.ts",
   "types": "index.d.ts",
   "files": [
