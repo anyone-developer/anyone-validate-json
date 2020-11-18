@@ -1,12 +1,12 @@
 
 import args from 'args';
-import Args from './types/args';
-import avj from './avj';
+import Args from '../src/types/args';
+import avj from '../src/avj';
 import chalk from 'chalk';
 
 export function parseArgumentsIntoOptions(rawArgs: string[]): Args {
 	args
-		.option('file-extension', '[Required] file extension that you want to read. such as "config" or "xml". split with comma.')
+		.option('file-extension', '[Required] file extension that you want to read. such as ".config" or ".json". split with comma.')
 		.option('ignore-files', 'the files you want to ignore. split with comma.')
 		.option('ignore-directories', 'the directories you want to ignore. split with comma.')
 		.option('read-path', 'the path that you assign to read.');

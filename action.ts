@@ -2,7 +2,7 @@ import * as core from '@actions/core';
 import avj from './src/avj';
 import chalk from 'chalk';
 
-const fileExtension = core.getInput('file-extension') ?? [];
+const fileExtension = core.getInput('file-extension') ?? ['.json'];
 const ignoreFiles = core.getInput('ignore-files') ?? [];
 const ignoreDirectories = core.getInput('ignore-directories') ?? [];
 const readPath = core.getInput('read-path') ?? './';
